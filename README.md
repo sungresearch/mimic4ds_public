@@ -11,7 +11,7 @@
 
 ### Setup:
 1. Clone respository - `git clone https://github.com/sungresearch/mimic4ds_public.git`
-2. Create conda environment - `conda create -p path-to-environment python=3.8 jupyterlab`
+2. Create conda environment - `conda create -p path-to-environment python=3.8`
 2. Install utils_prediction
 	a. cd into utils_prediction
 	b. do `pip install -e .`
