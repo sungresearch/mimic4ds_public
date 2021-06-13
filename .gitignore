@@ -1,0 +1,16 @@
+#notebooks related
+.ipynb_checkpoints
+__pycache__
+.jupyter_symlinks
+
+# data / artifacts
+data
+artifacts
+figures
+tables
+logs
+backup
+
+# utils_prediction
+*.egg*
+deprecated
