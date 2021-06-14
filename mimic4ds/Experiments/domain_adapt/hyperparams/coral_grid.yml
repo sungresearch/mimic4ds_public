@@ -1,0 +1,11 @@
+lambda_group_regularization:
+- 0.01
+- 0.1
+- 1
+- 10
+- 100
+- 1000
+weighted_loss:
+- True
+domain_adapt:
+- True
