@@ -16,6 +16,11 @@
 - update readme
 - clean up
 
+## TODO: 
+- upload experiment scripts
+- update readme
+- clean up
+
 ### Requirements:
 1. A copy of the MIMIC-IV (v1.0) database on Google BigQuery (GBQ)
 2. a service account key file to query GBQ tables
