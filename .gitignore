@@ -8,6 +8,8 @@ data
 artifacts
 figures
 tables
+results
+models
 logs
 backup
 

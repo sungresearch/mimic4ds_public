@@ -305,7 +305,7 @@ class featurizer():
             
     def gbq_connect(
         self,
-        service_account_json_path = '/hpf/projects/lsung/projects/mimic4proj/access/gcp.json', # path to your key file
+        service_account_json_path = '/hpf/projects/lsung/creds/gbq/mimic.json', # path to your key file
         project_id = None
     ):
         """

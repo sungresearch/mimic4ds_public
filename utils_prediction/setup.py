@@ -7,6 +7,7 @@ setup(
     author_email='lawrence.guo@sickkids.ca',
     packages=find_packages(),
     install_requires=[
+        "jupyterlab",
         "numpy",
         "pandas>=1.0.0",
         "pyarrow",
