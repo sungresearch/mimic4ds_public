@@ -1,9 +1,10 @@
 ## Can't submit job via qsub - compute nodes do not allow external connections (required for gbq)
 ## to run: ./extract_features.sh 
+## extracts features from gbq and save to mimic4ds/data 
 
 cd /hpf/projects/lsung/projects/public/mimic4ds_public/mimic4ds
 
-config_path="/hpf/projects/lsung/projects/public/mimic4ds_public/mimic4ds/featurizer_configs"
+config_path="/hpf/projects/lsung/projects/public/mimic4ds_public/mimic4ds/cohorts/featurizer_configs"
 save_path="/hpf/projects/lsung/projects/public/mimic4ds_public/mimic4ds/data"
 
 ## extract features

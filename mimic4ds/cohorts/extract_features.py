@@ -8,7 +8,9 @@ from utils_prediction.database import *
 from utils_prediction.featurizer.mimic4_gbq import *
 
 ## Init parser
-parser = argparse.ArgumentParser(description = "Extract features based on configurations stored in yaml files")
+parser = argparse.ArgumentParser(
+    description = "Extract features based on configurations featurizer_configs"
+)
 
 ## args
 parser.add_argument(

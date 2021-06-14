@@ -7,17 +7,19 @@ Available cohorts:
     - sepsis3 (in-icu sepsis onset within 24 hours)
 """
 from utils_prediction.database import *
-import argparse, os
+
+import argparse
+import os
 
 parser = argparse.ArgumentParser(
     description = "Create Cohort on GBQ using sql files"
-    )
+)
 
 parser.add_argument(
     "--sql_fpath",
     type = str,
-    default = "/hpf/projects/lsung/projects/public/mimic4ds_public/cohort_sql_files",
-    help = "where cohort sql files are stored"
+    default = "/hpf/projects/lsung/projects/public/mimic4ds_public/mimic4ds/cohorts/cohort_sql_files",
+    help = "where sql scripts are stored"
 )
 
 parser.add_argument(
