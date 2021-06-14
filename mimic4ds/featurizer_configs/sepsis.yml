@@ -1,0 +1,55 @@
+analysis_id: sepsis
+cohort_table: cohorts.mimic4ds_sepsis3
+include_all_history: true
+n_jobs: 4
+project_name: mimic-iv-ches
+save_ftype: parquet
+tables_to_build:
+  count_diagnosis:
+    concept_id: icd_code
+    concept_table: hosp.diagnoses_icd
+    feature_tag: diag
+    feature_type: count
+    timestamp: discharge
+  count_hcpcs:
+    concept_id: hcpcs_cd
+    concept_table: hosp.hcpcsevents
+    feature_tag: hcpcs
+    feature_type: count
+    timestamp: discharge
+  count_labs:
+    concept_id: itemid
+    concept_table: hosp.labevents
+    feature_tag: lab
+    feature_type: count
+    timestamp: charttime
+  count_prescriptions:
+    concept_id: ndc
+    concept_table: hosp.prescriptions
+    feature_tag: presc
+    feature_type: count
+    timestamp: starttime
+  count_procedures:
+    concept_id: icd_code
+    concept_table: hosp.procedures_icd
+    feature_tag: proc
+    feature_type: count
+    timestamp: discharge
+  meas_icucharts:
+    concept_id: itemid
+    concept_table: icu.chartevents
+    feature_tag: icucharts
+    feature_type: measurement
+    timestamp: charttime
+  meas_labs:
+    concept_id: itemid
+    concept_table: hosp.labevents
+    feature_tag: labs
+    feature_type: measurement
+    timestamp: charttime
+time_bins:
+- '-180'
+- '-30'
+- '-7'
+- '0'
+- '0.167'
