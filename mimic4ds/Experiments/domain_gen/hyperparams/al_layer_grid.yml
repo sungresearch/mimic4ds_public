@@ -1,0 +1,13 @@
+lambda_group_regularization:
+- 1
+- 0.1
+- 0.01
+- 0.001
+- 0.0001
+- 0.00001
+output_dim_discriminator:
+- 3
+use_layer_activations:
+- True
+selection_metric:
+- supervised

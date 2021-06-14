@@ -9,6 +9,7 @@ artifacts
 figures
 tables
 results
+algo
 models
 logs
 backup
