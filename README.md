@@ -1,5 +1,5 @@
 # mimic4ds_public
-- Scripts to reproduce "Evaluation of Domain Generalization and Adaptation on Improving Model Robustness to Temporal Dataset Shift in Clinical Medicine"
+- The code to reproduce "Evaluation of Domain Generalization and Adaptation on Improving Model Robustness to Temporal Dataset Shift in Clinical Medicine"
 
 ### Requirements to run:
 1. A copy of the MIMIC-IV (v1.0) database on Google BigQuery (GBQ)
